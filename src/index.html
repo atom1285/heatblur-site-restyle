@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title> Heatblur </title>
+</head>
+<body>
+<nav class="flex items-center justify-between flex-wrap bg-transparent p-6 absolute z-10 w-full">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <img alt="Logo"
+             src="https://store.heatblur.com/cdn/shop/files/HB_TextLogo_a2504ba3-a40b-4266-b3f0-83ce5aa5e6f4.png?v=1684877177&width=300">
+    </div>
+    <div class="flex justify-around nav-items w-fit">
+        <div class="navbar-item-wrapper">
+            <a href="" class="navbar-item-link">Home</a>
+        </div>
+        <div class="navbar-item-wrapper">
+            <a href="" class="navbar-item-link">Products</a>
+        </div>
+        <div class="navbar-item-wrapper">
+            <a href="" class="navbar-item-link">About</a>
+        </div>
+        <div class="navbar-item-wrapper">
+            <a href="" class="navbar-item-link">Faq</a>
+        </div>
+        <div class="navbar-item-wrapper">
+            <a href="" class="navbar-item-link">Contact</a>
+        </div>
+        <div class="navbar-item-wrapper">
+            <a href="" class="navbar-item-link">Forum</a>
+        </div>
+    </div>
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <img alt="Logo"
+             src="https://store.heatblur.com/cdn/shop/files/HB_TextLogo_a2504ba3-a40b-4266-b3f0-83ce5aa5e6f4.png?v=1684877177&width=300">
+    </div>
+</nav>
+<section id="hero">
+    <div class="video-wrapper absolute -z-10">
+        <video autoplay muted loop id="heroVideo">
+            <source src="https://cdn.shopify.com/videos/c/o/v/cc2ea5dc697641d189a129ccdabb7449.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="flex items-center flex-col justify-center" style="height: 100vh">
+        <div class="hero-box text-center">
+            <h1 class="text-7xl">DCS: F-4 PHANTOM</h1>
+            <h3 class="text-2xl my-2"> Available for pre-order now! </h3>
+        </div>
+        <button class="bg-red-700 py-2.5 px-5 rounded my-4">PRE-ORDER</button>
+    </div>
+</section>
+<section class="our-story py-20 px-36 bg-black text-center flex flex-col items-center">
+    <h2 class="text-5xl"> WE ARE HEATBLUR. </h2>
+    <p>Welcome to Heatblur Simulations, home of award-winning flight simulation products. </p>
+    <p>We are a passionate team of flight simulation developers, dedicated to immersing you in the world of legendary
+        aircraft and their stories. Being avid flight simmers ourselves, we set out to push boundaries in flight
+        simulation wherever we can. While achieving the greatest possible realism is one of the quality benchmarks for
+        our products, we also believe in immersion and providing an exhilarating, fun experience all around. Our
+        community is our foundation. You are our foundation. We could not be more grateful for all of your support and
+        feedback which continuously drives us to strive for more and fly higher. </p>
+    <p>Join our community, fly together or get in touch - and see you in the skies!</p>
+    <div class="plane-icons my-12 flex">
+        <img src="src/img/svg/ajs.svg" alt="Description of image" height="50px" width="150px">
+        <img src="src/img/svg/f14.svg" alt="Description of image" height="50px" width="150px">
+        <img src="src/img/svg/f4.svg" alt="Description of image" height="50px" width="150px">
+    </div>
+</section>
+<section class="f4">
+    <div class="video-wrapper absolute -z-10">
+        <video autoplay muted loop id="f4Video" class="">
+            <source src="https://www.heatblur.se/assets/phantom_announcement.mp4" type="video/mp4">
+        </video>
+    </div>
+    <section class="hero flex items-center justify-center flex-col" style="height: 100vh">
+        <div class="hero-box text-center">
+            <h1 class="text-7xl">F-4 PHANTOM II</h1>
+            <h3 class="text-2xl my-2">A legend returns. Coming soon by Heatblur Simulations.</h3>
+        </div>
+        <button class="bg-red-700 py-2.5 px-5 rounded my-4">PRE-ORDER NOW!</button>
+    </section>
+</section>
+<section id="news" class="flex flex-col items-center bg-black py-20">
+    <h2 class="text-5xl"> HEATBLUR NEWS </h2>
+    <button class="bg-black border px-4 py-2 border-gray-700 rounded my-5"> VIEW ALL</button>
+    <div class="news-articles px-10 mt-4">
+        <div class="flex flex-col items-center text-center mx-2">
+            <img alt="Article Image" src="src/img/web/article1.webp" class="object-cover">
+            <p class="my-2 opacity-70">Oct 25, 2023</p>
+            <h4 class="text-2xl text-gray-400"> F-14A/B Flight Model Tuning </h4>
+        </div>
+        <div class="flex flex-col items-center text-center mx-2">
+            <img alt="Article Image" src="src/img/web/article2.webp" class="object-cover">
+            <p class="my-2 opacity-70">Oct 25, 2023</p>
+            <h4 class="text-2xl text-gray-400"> DCS: F-14 Development Update - AIM-54 Phoenix Improvements &
+                Overhaul </h4>
+        </div>
+        <div class="flex flex-col items-center text-center mx-2">
+            <img alt="Article Image" src="src/img/web/article3.webp" class="object-cover">
+            <p class="my-2 opacity-70">Oct 25, 2023</p>
+            <h4 class="text-2xl text-gray-400"> F-14 v2.8 - Jamming, JESTER, and Headless Bodies! </h4>
+        </div>
+    </div>
+</section>
+<section id="discord" class="bg-blue-950 flex flex-col text-center items-center py-10 px-56">
+    <img alt="discord" src="src/img/svg/discord.svg" class="h-14">
+    <h2 class="text-5xl mt-2">TALK TO ME, GOOSE</h2>
+    <p class="my-4 text-2xl">Heatblur is now on Discord! Join our community and take part in discussions directly with
+        the developers.</p>
+</section>
+<section id="promo" class="bg-black px-4 py-4 flex flex-col">
+    <div id="promo1" class="promo-element flex flex-col items-center justify-center text-center">
+        <img class="h-4" src="https://cdn.shopify.com/s/files/1/1577/6397/files/DCS.png?v=1698454434">
+        <h2 class="text-5xl my-2">
+            THE LEGENDARY TOMCAT
+        </h2>
+        <p class="my-3">
+            Fly our legendary F-14 simulation in DCS World
+        </p>
+        <button class="bg-red-600 py-2.5 px-5 rounded">
+            SHOP THIS
+        </button>
+    </div>
+    <div id="promo2" class="promo-element flex flex-col items-center justify-center text-center">
+        <img class="h-4" src="https://cdn.shopify.com/s/files/1/1577/6397/files/DCS.png?v=1698454434">
+        <h2 class="text-5xl my-2">
+            GOD OF THUNDER
+        </h2>
+        <p class="my-3">
+            Fly our legendary AJS-37 Viggen in DCS World
+        </p>
+        <button class="bg-orange-500 py-2.5 px-5 rounded">
+            SHOP THIS
+        </button>
+    </div>
+</section>
+</body>
+</html>

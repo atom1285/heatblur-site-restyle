@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-items {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+    @apply text-white
+}
+
+.our-story p {
+    @apply my-4
+}
+
+.plane-icons img {
+    @apply mx-5
+}
+
+.video-wrapper video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#f4Video, #heroVideo {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.news-articles {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4
+}
+
+.news-articles img {
+    @apply w-full h-64 object-cover
+}
+
+
+#promo1 {
+    /*background-image: url("src/img/promo/promo1.webp");*/
+    background-image: url("https://store.heatblur.com/cdn/shop/files/Banner_01.jpg?v=1666580854&width=1920");
+}
+
+#promo2 {
+    /*background-image: url("src/img/promo/promo1.webp");*/
+    background-image: url("https://store.heatblur.com/cdn/shop/files/ViggenBurner.jpg?v=1684875443&width=1920");
+}
+
+.promo-element {
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @apply my-2
+}
+
+.navbar-item-wrapper {
+    @apply mx-4
+}
+
+.navbar-item-link {
+    @apply block mt-4 lg:inline-block lg:mt-0 text-white hover:underline mr-4 text-xl uppercase
+}
